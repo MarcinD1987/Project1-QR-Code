@@ -10,24 +10,42 @@ body {
     /* Center */
     position: relative;
     margin: 100px;
+    /* style */
+    box-shadow: 12px 8px 27px 12px #DBE3E8, 5px 5px 10px 1px #000;
 }
 
 #box {
     background-color: hsl(0, 0%, 100%);
     width: 330px;
-    height: 450px;
-    /* Center */
+    height: 500px;
+    /* center */
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -225px; /* Half this element's height */
+    margin-top: -250px; /* Half this element's height */
     margin-left: -165px;
+    /* style */
+    box-shadow: 12px 8px 27px 0 #F4F5F8, 5px 5px 10px 1px #000;
+    border-radius: 20px;
 }
 
-h2 {
+#picture {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+h3 {
     font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+    margin: 6px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 13px;
+    text-align: center;
+    color: darkgrey;
+    font-weight: 600;
+    margin: 15px;
 }
